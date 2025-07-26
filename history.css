@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#namazCard{
+    width: 40%;
+    height: 57vh;
+    margin: 10px auto; 
+}
+.cardContainer{
+    border: 1px solid red;
+    width: 100%;
+}
+h3{
+    margin-right: 100px;
+}
+.satus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 100px;
+}

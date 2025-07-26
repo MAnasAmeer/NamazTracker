@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/Project 1/style.css">
+</head>
+<body>
+    <h1>Namaz Tracking Login</h1>
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-login">Login</div>
+            </div>
+        </div>  
+        <!-- < login form>   -->
+            <form action="#" class="login-form" autocomplete="off">
+                <div class="input-box">
+                    <input type="text" class="input-field" id="log-email" required>
+                    <label for="log-email" class="label">Email</label>
+                    <!-- <i class='bx  bx-envelope-open'  ></i>  -->
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" id="log-pass" required>
+                    <label for="log-pass" class="label">Password</label>
+                    <!-- <i class='bx  bx-lock-keyhole'  ></i>   -->
+                </div>
+                <div class="form-cols">
+                    <div class="col-1"></div>
+                    <div class="col-2"><a href="#">Forgot password</a></div>
+                </div>
+                <div class="input-box">
+                    <button class="btn-submit" onclick="loginHandler()">Login<i class='bx  bx-arrow-to-right-stroke'  ></i> </button>
+                </div>
+                <div class="switch-form">
+                    <span>Don't Have an account <a href="./signup.html">Create account</a></span>
+                </div>
+            </form>
+    </div>       
+</body>
+ <script type="module" src="/Project 1/app.js"></script> 
+ <script type="module" src="/Project 1/firebase.js"></script>
+</html>

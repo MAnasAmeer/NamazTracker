@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="/Project 1/style.css">
+</head>
+<body>
+    <h1>Namaz Tracking Signup</h1>
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-signup">Signup</div>
+            </div>
+        </div> 
+
+        <form action="#" class="sign-form" autocomplete="off">
+                <div class="input-box">
+                    <input type="text" class="input-field" id="sig-user" required>
+                    <label for="sig-user" class="label">UserName</label>
+                    
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" id="sig-email" required>
+                    <label for="sig-email" class="label">Email</label>
+                    <!-- <i class='bx  bx-envelope-open'  ></i>  -->
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" id="sig-pass" required>
+                    <label for="sig-pass" class="label">Password</label>
+                    <!-- <i class='bx  bx-lock-keyhole'  ></i>   -->
+                </div>
+                <div class="input-box">
+                    <button class="btn-submit" onclick="signupHandler()">Signup<i class='bx  bx-arrow-to-right-stroke'  ></i> </button>
+                </div>
+                <div class="switch-form">
+                    <span>Already Have an account <a href="./index.html">Login</a></span>
+                </div>
+            </form>
+      
+    </div> 
+</body>
+ <script type="module" src="/Project 1/signup.js"></script> 
+ <script type="module" src="/Project 1/firebase.js"></script>
+</html>
